@@ -1,4 +1,4 @@
-module kom (
+module Field_Multiplier (
     input clk,
     input [255:0] a,b,
     output logic[254:0]  result
@@ -47,7 +47,7 @@ logic [255:0] a,b;
 logic clk;
 logic [254:0]result;
 
-kom kom(clk,a,b,result);
+Field_Multiplier Field_Multiplier(clk,a,b,result);
 
 
  initial begin
