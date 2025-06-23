@@ -24,9 +24,9 @@ logic [3:0] SC;
 
 Field_Multiplier Field_Multiplier(clk,a,b,result); // Multiplier
 
-assign  ad3 = ad1 + ad2; // Adder
+assign  ad3 = ($signed(ad1 + ad2) >= 0)? (ad1 + ad2) : (ad1 + ad2) + ({1'b1, 255'd0} - 19); // Adder
 
-assign  sub3 = sub1 - sub2; // Subtractor
+assign  sub3 = ($signed(sub1 - sub2) >= 0)? (sub1 - sub2) : (sub1 - sub2) + ({1'b1, 255'd0} - 19); // Subtractor
 
 
 always @(*)
