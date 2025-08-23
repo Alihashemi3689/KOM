@@ -1,3 +1,14 @@
+# mathematical proof
+A.B = (a<sub>h</sub>2<sup>128</sup>+a<sub>l</sub>)(b<sub>h</sub>2<sup>128</sup>+b<sub>l</sub>) = a<sub>h</sub>b<sub>h</sub>2<sup>256</sup> + (a<sub>l</sub>b<sub>h</sub> + a<sub>h</sub>b<sub>l</sub>)2<sup>128</sup> + a<sub>l</sub>b<sub>l</sub> = a<sub>h</sub>b<sub>h</sub>38 + [(a<sub>h</sub>+a<sub>l</sub>)(b<sub>h</sub>+b<sub>l</sub>) - a<sub>h</sub>b<sub>h</sub> - a<sub>l</sub>b<sub>l</sub>]2<sup>128</sup> + a<sub>l</sub>b<sub>l</sub>
+
+
+
+
+
+
+
+
+
 FPGA Synthesis Results Of Ladder Step On  XC7Z020 Device ( speed grade : -1)
 
 ![image](https://github.com/user-attachments/assets/dc69d3e9-7d7f-425e-9b0d-5bbc08147174)
