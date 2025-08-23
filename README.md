@@ -8,6 +8,8 @@ a<sub>l</sub>b<sub>l</sub> = a<sub>1</sub>b<sub>1</sub>2<sup>128</sup> + [(a<sub
 
 (a<sub>h</sub>+a<sub>l</sub>)(b<sub>h</sub>+b<sub>l</sub>) = ra<sub>h</sub>rb<sub>h</sub>2<sup>130</sup> + [(ra<sub>h</sub>+ra<sub>l</sub>)(rb<sub>h</sub>+rb<sub>l</sub>) - ra<sub>h</sub>rb<sub>h</sub> - ra<sub>l</sub>rb<sub>l</sub>]2<sup>65</sup> + ra<sub>l</sub>rb<sub>l</sub> <br>
 
+[(a<sub>h</sub>+a<sub>l</sub>)(b<sub>h</sub>+b<sub>l</sub>) - a<sub>h</sub>b<sub>h</sub> - a<sub>l</sub>b<sub>l</sub>]2<sup>128</sup> = ra<sub>h</sub>rb<sub>h</sub>76 + [(ra<sub>h</sub>+ra<sub>l</sub>)(rb<sub>h</sub>+rb<sub>l</sub>) - ra<sub>h</sub>rb<sub>h</sub> - ra<sub>l</sub>rb<sub>l</sub>]2<sup>193</sup> + ra<sub>l</sub>rb<sub>l</sub>2<sup>128</sup> - (a<sub>h</sub>b<sub>h</sub> + a<sub>l</sub>b<sub>l</sub>)2<sup>128</sup>
+
 
 # Results
 
