@@ -11,7 +11,8 @@ a<sub>l</sub>b<sub>l</sub> = a<sub>1</sub>b<sub>1</sub>2<sup>128</sup> + [(a<sub
 [(a<sub>h</sub>+a<sub>l</sub>)(b<sub>h</sub>+b<sub>l</sub>) - a<sub>h</sub>b<sub>h</sub> - a<sub>l</sub>b<sub>l</sub>]2<sup>128</sup> = ra<sub>h</sub>rb<sub>h</sub>76 + [(ra<sub>h</sub>+ra<sub>l</sub>)(rb<sub>h</sub>+rb<sub>l</sub>) - ra<sub>h</sub>rb<sub>h</sub> - ra<sub>l</sub>rb<sub>l</sub>]2<sup>193</sup> + ra<sub>l</sub>rb<sub>l</sub>2<sup>128</sup> - (a<sub>h</sub>b<sub>h</sub> + a<sub>l</sub>b<sub>l</sub>)2<sup>128</sup>
 
 # Schematic
-<img width="1082" height="1799" alt="2LevelKaratsuba drawio(1)" src="https://github.com/user-attachments/assets/545973d2-be37-45d2-b742-1587d3c2567a" />
+<img width="1116" height="1813" alt="2LevelKaratsuba drawio(2)" src="https://github.com/user-attachments/assets/bc0737cf-8bf4-4705-b1c3-311b78fc3b2f" />
+
 
 # Results
 
