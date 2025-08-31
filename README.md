@@ -14,7 +14,7 @@ a<sub>l</sub>b<sub>l</sub> = a<sub>1</sub>b<sub>1</sub>2<sup>128</sup> + [(a<sub
 
 
 
-# Results(XC7Z030-3 80MHZ)
+### Step_Ladder synthesis Results(XC7Z030-3 80MHZ)
 
 ## with DSP
 <img width="593" height="244" alt="image" src="https://github.com/user-attachments/assets/8ced215f-4639-456c-b473-08771f4e9077" />
