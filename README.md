@@ -15,4 +15,10 @@ a<sub>l</sub>b<sub>l</sub> = a<sub>1</sub>b<sub>1</sub>2<sup>128</sup> + [(a<sub
 
 # Results
 
+## with DSP
+<img width="593" height="244" alt="image" src="https://github.com/user-attachments/assets/8ced215f-4639-456c-b473-08771f4e9077" />
+
+## without DSP
+<img width="603" height="228" alt="image" src="https://github.com/user-attachments/assets/c37abc79-20f9-4659-8097-adf400dca1ec" />
+
 
